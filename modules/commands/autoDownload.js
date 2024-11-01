@@ -56,18 +56,18 @@ module.exports.handleEvent = async function ({ api, event, client, __GLOBAL }) {
       );
       const bb = aa.data;
       const shortUrl = await tinyurl.shorten(bb.result);
-      const MSG = `[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵`;
+      const MSG = `NAYEM BOT`;
       let ex;
       let cp;
       if (bb.result.includes(".jpg")) {
         ex = ".jpg";
-        cp = "[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 <💘";
+        cp = "[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 NAYEM 𝘉𝘰𝘵 <💘";
       } else if (bb.result.includes(".png")) {
         ex = ".png";
-        cp = "[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 <💘";
+        cp = "[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 NAYEM 𝘉𝘰𝘵 <💘";
       } else if (bb.result.includes(".jpeg")) {
         ex = ".jpeg";
-        cp = "[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 𝘛𝘢𝘯𝘷𝘪𝘳 𝘉𝘰𝘵 <💘";
+        cp = "[🤍] 𝘚𝘵𝘢𝘺 𝘞𝘪𝘵𝘩 NAYEM 𝘉𝘰𝘵 <💘";
       } else {
         ex = ".mp4";
         cp = bb.cp;
